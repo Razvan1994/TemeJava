@@ -13,9 +13,9 @@ public class LoginPagina {
         int password;
 
 		int counter = 0;
-
+		Scanner scan = new Scanner(System.in);
 		do { 
-			Scanner scan = new Scanner(System.in);
+			
             System.out.println("Enter a user: ");
             username = scan.next();
             System.out.println("Enter a password: ");
