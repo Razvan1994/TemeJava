@@ -40,7 +40,7 @@ public class SwitchHomework {
 					System.out.println(bonus);	
 				break;
 				}
-				if ((vanzari <= 10000)&&(luna>=7 && luna<=11)) {
+				if ((vanzari <= 10000)&&(luna == 12)) {
 					bonus = 900;
 					System.out.println(bonus + "In decembrie se vand singure");	
 				break;
