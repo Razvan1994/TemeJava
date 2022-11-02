@@ -1,5 +1,5 @@
 package tema6;
-
+//
 public class Homework3 {
 
 	public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class Homework3 {
 			for(int i=0; i<myStringArray.length; i++) {
 				for(int j=i+1; j<myStringArray.length; j++) {
 					if(myStringArray[i]==myStringArray[j]) {
-						System.out.println("Nume duplicat "+myStringArray[i]);
+						System.out.println("Nume duplicat "+myStringArray[i]); 
 					}
 				}
 			}
